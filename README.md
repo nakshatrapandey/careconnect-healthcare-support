@@ -52,9 +52,9 @@ CareConnect can be used by healthcare NGOs to:
 ---
 
 ## Live Demo
-🔗 Live Site: https://YOUR_NETLIFY_LINK_HERE
+🔗 Live Site: https://stately-buttercream-43493f.netlify.app/
 
 ---
 
 ## GitHub Repository
-🔗 GitHub: https://github.com/YOUR_GITHUB_USERNAME/careconnect-healthcare-support
+🔗 GitHub: https://github.com/nakshatrapandey/careconnect-healthcare-support
