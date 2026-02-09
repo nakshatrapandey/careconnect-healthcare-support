@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CareConnect – Healthcare Support</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>CareConnect</h1>
+    <p>Mini Healthcare Support Web App for NGOs</p>
+
+    <hr>
+
+    <h2>Patient Support Form</h2>
+
+    <form id="supportForm">
+        <label>Name:</label><br>
+        <input type="text" id="name" required><br><br>
+
+        <label>Email:</label><br>
+        <input type="email" id="email" required><br><br>
+
+        <label>Category:</label><br>
+        <select id="category">
+            <option>General Health</option>
+            <option>Mental Health</option>
+            <option>Emergency</option>
+            <option>Volunteering</option>
+        </select><br><br>
+
+        <label>Message:</label><br>
+        <textarea id="message" rows="4" required></textarea><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <p id="formResponse"></p>
+
+    <hr>
+
+    <h2>Healthcare FAQ Chatbot</h2>
+
+    <div id="chatbox">
+        <div id="chatMessages"></div>
+        <input type="text" id="userInput" placeholder="Ask a question...">
+        <button onclick="sendMessage()">Send</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
